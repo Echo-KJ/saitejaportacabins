@@ -1,0 +1,1203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>STPC | Containers | Old Palwancha</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     TOP INFO BAR
+═══════════════════════════════════════════ -->
+<div class="topbar">
+  <div class="container">
+    <div class="topbar__inner">
+      <div class="topbar__item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Survey No. 152, Doolapally, Qutbullahpur, Kompally, Hyd - 500014.
+      </div>
+      <div class="topbar__item">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        <a href="mailto:info@necprefabs.com">info@necprefabs.com</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     NAVBAR
+═══════════════════════════════════════════ -->
+<nav class="nav" role="navigation" aria-label="Main navigation">
+  <div class="container nav__inner">
+
+    <!-- Logo -->
+    <a href="#" class="nav__logo" aria-label="STPC Home">
+       <!--<img src="images/logo.png" alt="STPC" />-->
+      <div class="nav__logo-text">
+        STPC
+        <small>Smart Prefab Solutions</small>
+      </div>
+    </a>
+
+    <!-- Desktop Menu -->
+    <ul class="nav__menu" role="list">
+      <li class="nav__item"><a href="#" class="nav__link active">Home</a></li>
+      <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+      <li class="nav__item">
+        <a href="#products" class="nav__link">
+          Our Products
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+        </a>
+        <div class="nav__dropdown">
+          <a href="#">Smart Cabins</a>
+          <a href="#">Farm Nest</a>
+          <a href="#">Kiosk</a>
+          <a href="#">Detachable Cabin</a>
+          <a href="#">Mobile Nest</a>
+          <a href="#">Smart Nest</a>
+          <a href="#">Cafe and Hotels</a>
+          <a href="#">Prefab Houses</a>
+          <a href="#">Portable Cabins</a>
+        </div>
+      </li>
+      <li class="nav__item">
+        <a href="#" class="nav__link">
+          Media
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+        </a>
+        <div class="nav__dropdown">
+          <a href="#">Project Gallery</a>
+          <a href="#">Videos</a>
+        </div>
+      </li>
+      <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+      <li class="nav__item"><a href="#contact" class="nav__link">Contact Us</a></li>
+    </ul>
+
+    <!-- Actions -->
+    <div class="nav__actions">
+      <a href="tel:+919177000799" class="nav__phone" aria-label="Call us">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.47 2 2 0 0 1 3.58 1.25h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        +91 - 9177000799
+      </a>
+      <a href="https://wa.me/919177000799/?text=Hi,%20I'm%20interested%20in%20your%20modular%20container%20solutions." target="_blank" rel="noopener" class="btn btn--amber" style="font-size:12px;padding:11px 22px;">Get A Quote</a>
+      <button class="nav__burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="nav__mobile" id="mobile-menu">
+    <a href="#" class="nav__mobile-link">Home</a>
+    <a href="#about" class="nav__mobile-link">About</a>
+    <div class="nav__mobile-link" style="cursor:pointer;">Our Products ▾</div>
+    <div class="nav__mobile-sub">
+      <a href="#">Smart Cabins</a>
+      <a href="#">Farm Nest</a>
+      <a href="#">Kiosk</a>
+      <a href="#">Detachable Cabin</a>
+      <a href="#">Mobile Nest</a>
+      <a href="#">Smart Nest</a>
+      <a href="#">Cafe and Hotels</a>
+    </div>
+    <a href="#" class="nav__mobile-link">Blog</a>
+    <a href="#contact" class="nav__mobile-link">Contact Us</a>
+    <div class="nav__mobile-cta">
+      <a href="tel:+919177000799" class="btn btn--outline-green" style="flex:1;justify-content:center;">📞 Call</a>
+      <a href="https://wa.me/919177000799" target="_blank" rel="noopener" class="btn btn--amber" style="flex:1;justify-content:center;">Get Quote</a>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ═══════════════════════════════════════════
+     HERO SLIDER
+═══════════════════════════════════════════ -->
+<section class="hero" aria-label="Hero banner">
+  <div class="hero__slides" id="heroSlides">
+
+    <!-- Slide 1 -->
+<div class="hero__slide">
+  <img 
+    src="images/slide-1.jpeg"
+    alt="Visionary Planning"
+    class="hero__slide-img"
+    loading="eager"
+    fetchpriority="high"
+  />
+  <div class="hero__overlay" aria-hidden="true"></div>
+  <div class="container">
+    <div class="hero__content">
+      <div class="hero__tag" aria-label="Slide 1 of 4">Visionary Planning</div>
+      <h1 class="hero__title">Turning Ideas Into<br/><span>Achievable Blueprints</span></h1>
+      <p class="hero__desc">We translate your vision into detailed, executable plans — every line drawn with purpose, every structure engineered for the future.</p>
+      <div class="hero__ctas">
+        <a href="#products" class="btn btn--amber btn--lg">Explore Products</a>
+        <a href="#about" class="btn btn--outline-white">Learn More</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Slide 2 -->
+<div class="hero__slide">
+
+  <img 
+    src="images/slide-2.jpeg" 
+    alt="Detailed engineering — NEC Prefabs structural design"
+    class="hero__slide-img"
+    loading="eager"
+    fetchpriority="high"
+  />
+
+  <div class="hero__overlay" aria-hidden="true"></div>
+
+  <div class="hero__tint" aria-hidden="true"></div>
+
+  <div class="container">
+    <div class="hero__content">
+      <div class="hero__tag">Detailed Engineering</div>
+      <h1 class="hero__title">Strength Meets<br/><span>Aesthetic Appeal</span></h1>
+      <p class="hero__desc">
+        Seamlessly integrating structural strength with visual elegance — 
+        our prefab structures are built to impress as much as they are built to last.
+      </p>
+      <div class="hero__ctas">
+        <a href="#products" class="btn btn--amber btn--lg">View Products</a>
+        <a href="#contact" class="btn btn--outline-white">Get Quote</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+    <!-- Slide 3 -->
+    <div class="hero__slide">
+
+        <img 
+    src="images/slide-3.jpeg" 
+    alt="Detailed engineering — NEC Prefabs structural design"
+    class="hero__slide-img"
+    loading="eager"
+    fetchpriority="high"
+  />
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+
+
+      <div class="container">
+        <div class="hero__content">
+          <div class="hero__tag">Sustainable Approach</div>
+          <h1 class="hero__title">Beauty Balanced with<br/><span>Responsibility</span></h1>
+          <p class="hero__desc">Every structure we build considers its footprint. Eco-conscious materials, minimal waste processes, and sustainable design are our standards.</p>
+          <div class="hero__ctas">
+            <a href="#products" class="btn btn--amber btn--lg">Our Solutions</a>
+            <a href="#about" class="btn btn--outline-white">About Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Slide 4 -->
+    <div class="hero__slide">
+        <img 
+    src="images/slide-4.jpeg" 
+    alt="Detailed engineering — NEC Prefabs structural design"
+    class="hero__slide-img"
+    loading="eager"
+    fetchpriority="high"
+  />
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="container">
+        <div class="hero__content">
+          <div class="hero__tag">Design Expertise</div>
+          <h1 class="hero__title">Modern Concepts,<br/><span>Classic Values</span></h1>
+          <p class="hero__desc">Blending contemporary architectural innovation with timeless structural principles. Your space, perfected — inside and out.</p>
+          <div class="hero__ctas">
+            <a href="#products" class="btn btn--amber btn--lg">Discover More</a>
+            <a href="#contact" class="btn btn--outline-white">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Arrow navigation -->
+  <div class="hero__arrows" aria-label="Slider navigation">
+    <button class="hero__arr" id="heroPrev" aria-label="Previous slide">&#8249;</button>
+    <button class="hero__arr" id="heroNext" aria-label="Next slide">&#8250;</button>
+  </div>
+
+  <!-- Dot navigation -->
+  <div class="hero__controls" role="tablist" aria-label="Slide indicators">
+    <button class="hero__dot active" data-slide="0" aria-label="Slide 1" role="tab" aria-selected="true"></button>
+    <button class="hero__dot" data-slide="1" aria-label="Slide 2" role="tab" aria-selected="false"></button>
+    <button class="hero__dot" data-slide="2" aria-label="Slide 3" role="tab" aria-selected="false"></button>
+    <button class="hero__dot" data-slide="3" aria-label="Slide 4" role="tab" aria-selected="false"></button>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     STATS BAR
+═══════════════════════════════════════════ -->
+<div class="statsbar">
+  <div class="container">
+    <div class="statsbar__inner">
+      <div class="statsbar__item reveal">
+        <div class="statsbar__num"><span class="counter" data-target="100">0</span><span class="suffix">%</span></div>
+        <div class="statsbar__label">Satisfaction Guaranteed</div>
+      </div>
+      <div class="statsbar__item reveal reveal-d1">
+        <div class="statsbar__num"><span class="counter" data-target="10">0</span><span class="suffix">+</span></div>
+        <div class="statsbar__label">Years of Expertise</div>
+      </div>
+      <div class="statsbar__item reveal reveal-d2">
+        <div class="statsbar__num"><span class="counter" data-target="500">0</span><span class="suffix">+</span></div>
+        <div class="statsbar__label">Projects Delivered</div>
+      </div>
+      <div class="statsbar__item reveal reveal-d3">
+        <div class="statsbar__num"><span class="counter" data-target="100">0</span><span class="suffix">%</span></div>
+        <div class="statsbar__label">Customizable Solutions</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════
+     ABOUT SECTION
+═══════════════════════════════════════════ -->
+<section class="about" id="about" aria-labelledby="about-title">
+  <div class="container">
+    <div class="about__inner">
+
+      <!-- Text -->
+      <div>
+        <div class="section-tag reveal">Welcome to Nagarjuna Prefabs</div>
+        <h2 class="section-title reveal reveal-d1" id="about-title">
+          Smart Cabin Containers<br/>
+          <span>Manufacturers in Hyderabad</span>
+        </h2>
+        <p class="about__lead reveal reveal-d2">
+          Over the years, we have added many successful projects in our business list which indicate our high performance and prompt execution of each project.
+        </p>
+        <p class="about__text reveal reveal-d2">
+          We use premium quality raw material and advanced methods to customize each structure according to the client's specifications and budget. Our excellence in providing value-based service enables us to maximize customer satisfaction.
+        </p>
+
+        <!-- Tabs -->
+        <div class="about__tabs reveal reveal-d3">
+          <button class="about__tab active" data-tab="strength">Our Strength</button>
+          <button class="about__tab" data-tab="vision">Our Vision</button>
+        </div>
+
+        <div class="about__tab-content active" id="tab-strength">
+          <p class="about__tab-text">
+            We have always believed that building strong leaders is a strategic imperative. When times are easy, leadership can be taken for granted. When the world is turbulent, you appreciate great people.
+          </p>
+        </div>
+        <div class="about__tab-content" id="tab-vision">
+          <div class="about__points">
+            <div class="about__point">
+              <div class="about__point-dot">✓</div>
+              <span>To provide high quality products</span>
+            </div>
+            <div class="about__point">
+              <div class="about__point-dot">✓</div>
+              <span>Right supplies with affordable costs &amp; on time</span>
+            </div>
+            <div class="about__point">
+              <div class="about__point-dot">✓</div>
+              <span>To minimize defects on time</span>
+            </div>
+            <div class="about__point">
+              <div class="about__point-dot">✓</div>
+              <span>The uniqueness of the service</span>
+            </div>
+            <div class="about__point">
+              <div class="about__point-dot">✓</div>
+              <span>To satisfy our clients expectations</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__cta reveal reveal-d4">
+          <a href="#products" class="btn btn--green">Know More</a>
+        </div>
+      </div>
+
+      <!-- Image -->
+      <div class="about__img-wrap reveal reveal-d2">
+        <div class="about__badge">
+          <div class="about__badge-text">ISO Certified<br/>Quality Assured</div>
+        </div>
+        <div class="about__img-main">
+          <img src="images/slide-3.jpeg"
+     alt="NEC Prefabs facility and team"
+     style="width:100%; height:460px; object-fit:cover;">
+        </div>
+        <div class="about__satisfaction">
+          <div class="about__satisfaction-num"><span class="counter" data-target="100">0</span>%</div>
+          <div class="about__satisfaction-label">Satisfaction<br/>Guaranteed</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     PRODUCTS GRID
+═══════════════════════════════════════════ -->
+<section class="products" id="products" aria-labelledby="products-title">
+  <div class="container">
+    <div class="products__head">
+      <div class="section-tag reveal">Nagarjuna Prefabs | Hyderabad</div>
+      <h2 class="section-title reveal reveal-d1" id="products-title">Our Products <span>Category</span></h2>
+      <p class="section-sub reveal reveal-d2">Premium prefabricated structures designed for every need — from compact security cabins to full-scale farmhouse complexes.</p>
+    </div>
+      <!--articles--->
+    <div class="products__grid">
+<!--articles-1-->
+<article class="product-card reveal reveal-d1">
+  <div class="product-card__img">
+    
+    <img src="images/slide-1.jpeg" alt="Smart Cabin" style="width:100%; height:100%; object-fit:cover;">
+
+    <div class="product-card__img-overlay"></div>
+    <span class="product-card__cat">Popular</span>
+
+  </div>
+
+  <div class="product-card__body">
+    <h3 class="product-card__title">Smart Cabins</h3>
+
+    <p class="product-card__desc">
+      Smart Cabins are modern, durable, and customizable portable spaces, perfect for offices, security rooms, or temporary setups. Designed for comfort, convenience, and long-lasting performance.
+    </p>
+
+    <a href="#" class="product-card__link">
+      Read More
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </div>
+</article>
+<!--articles-2-->
+<article class="product-card reveal reveal-d2">
+  <div class="product-card__img">
+
+    <img src="images/slide-2.jpeg" alt="Farm Nest" style="width:100%; height:100%; object-fit:cover;">
+
+    <div class="product-card__img-overlay"></div>
+
+  </div>
+
+  <div class="product-card__body">
+    <h3 class="product-card__title">Farm Nest</h3>
+
+    <p class="product-card__desc">
+      Farm Nests provide safe, sturdy, and eco-friendly living or storage solutions for farms. Quick to install, cost-effective, and designed to suit rural and agricultural needs.
+    </p>
+
+    <a href="#" class="product-card__link">
+      Read More
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+
+  </div>
+</article>
+<!--articles-3-->
+<article class="product-card reveal reveal-d3">
+  <div class="product-card__img">
+
+    <img src="images/slide-3.jpeg" alt="Kiosk" style="width:100%; height:100%; object-fit:cover;">
+
+    <div class="product-card__img-overlay"></div>
+
+  </div>
+
+  <div class="product-card__body">
+    <h3 class="product-card__title">Kiosk</h3>
+
+    <p class="product-card__desc">
+      Prefabricated Kiosks are ideal for shops, stalls, and business points. Easy to set up, portable, and attractive in design, helping businesses operate faster and smarter.
+    </p>
+
+    <a href="#" class="product-card__link">
+      Read More
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+  </div>
+</article>
+<!--articles-4-->
+<article class="product-card reveal reveal-d2">
+  <div class="product-card__img">
+
+    <img src="images/slide-4.jpeg" alt="Detachable Cabin" style="width:100%; height:100%; object-fit:cover;">
+
+    <div class="product-card__img-overlay"></div>
+
+  </div>
+
+  <div class="product-card__body">
+    <h3 class="product-card__title">Detachable Cabin</h3>
+
+    <p class="product-card__desc">
+      Detachable Cabins are flexible, transportable, and easy to assemble. Perfect for site offices or temporary needs, offering comfort and functionality with efficient space utilization.
+    </p>
+
+    <a href="#" class="product-card__link">
+      Read More
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+
+  </div>
+</article>
+<!--articles-5-->
+<article class="product-card reveal reveal-d2">
+  <div class="product-card__img">
+
+    <img src="images/slide-5.jpeg" alt="Mobile Nest" style="width:100%; height:100%; object-fit:cover;">
+
+    <div class="product-card__img-overlay"></div>
+
+  </div>
+
+  <div class="product-card__body">
+    <h3 class="product-card__title">Mobile Nest</h3>
+
+    <p class="product-card__desc">
+      Mobile Nests bring mobility and comfort together. Designed for easy relocation, they're durable, stylish, and suitable for housing, site offices, or business spaces on the go.
+    </p>
+
+    <a href="#" class="product-card__link">
+      Read More
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+
+  </div>
+</article>
+<!--articles-6-->
+<article class="product-card reveal reveal-d3">
+  <div class="product-card__img">
+
+    <img src="images/slide-1.jpeg" alt="Smart Nest" style="width:100%; height:100%; object-fit:cover;">
+
+    <div class="product-card__img-overlay"></div>
+    <span class="product-card__cat">New</span>
+
+  </div>
+
+  <div class="product-card__body">
+    <h3 class="product-card__title">Smart Nest</h3>
+
+    <p class="product-card__desc">
+      Smart Nests combine innovation with utility, offering modern prefabricated living or working spaces. They're compact, customizable, and sustainable, ensuring comfort and efficiency in every use.
+    </p>
+
+    <a href="#" class="product-card__link">
+      Read More
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <path d="M5 12h14M12 5l7 7-7 7"/>
+      </svg>
+    </a>
+
+  </div>
+</article>
+
+    </div>
+
+    <div class="products__cta reveal">
+      <a href="#" class="btn btn--outline-green btn--lg">View All Services</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     PROCESS
+═══════════════════════════════════════════ -->
+<section class="process" aria-labelledby="process-title">
+  <div class="container">
+    <div class="process__head">
+      <div class="section-tag reveal">Our Process</div>
+      <h2 class="section-title reveal reveal-d1" id="process-title">Turning Ideas Into <span style="color:var(--accent)">Landmarks</span></h2>
+      <p class="section-sub reveal reveal-d2">A clear, proven process from first conversation to final handover — every step managed with precision and care.</p>
+    </div>
+
+    <div class="process__grid">
+      <div class="process-step reveal">
+        <div class="process-step__num">01</div>
+        <h3 class="process-step__title">Consultation</h3>
+        <p class="process-step__desc">Listening to your needs and goals. We take time to understand exactly what you need before we ever put pencil to paper.</p>
+      </div>
+      <div class="process-step reveal reveal-d1">
+        <div class="process-step__num">02</div>
+        <h3 class="process-step__title">Design Drafting</h3>
+        <p class="process-step__desc">Developing creative concepts that align with your vision, budget, and site requirements.</p>
+      </div>
+      <div class="process-step reveal reveal-d2">
+        <div class="process-step__num">03</div>
+        <h3 class="process-step__title">Blueprints &amp; Approvals</h3>
+        <p class="process-step__desc">Ensuring compliance and clarity. Detailed technical drawings prepared and reviewed for approval.</p>
+      </div>
+      <div class="process-step reveal reveal-d3">
+        <div class="process-step__num">04</div>
+        <h3 class="process-step__title">Construction</h3>
+        <p class="process-step__desc">Managing every step with precision. Our fabrication team builds your structure to exact specification.</p>
+      </div>
+      <div class="process-step reveal reveal-d4">
+        <div class="process-step__num">05</div>
+        <h3 class="process-step__title">Finishing Touches</h3>
+        <p class="process-step__desc">Adding details that elevate the experience — interiors, fixtures, paint, and quality control checks.</p>
+      </div>
+      <div class="process-step reveal reveal-d5">
+        <div class="process-step__num">06</div>
+        <h3 class="process-step__title">Final Handover</h3>
+        <p class="process-step__desc">Delivering a space that exceeds expectations, with full documentation and after-sales support.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     NEWS TICKER
+═══════════════════════════════════════════ -->
+<div class="ticker" aria-label="Fresh updates ticker">
+  <div class="container">
+    <div class="ticker__inner">
+      <span class="ticker__label">Fresh Updates</span>
+      <div class="ticker__track" aria-hidden="true">
+        <span class="ticker__item">Smart Cabins — Hyderabad's Best Prefab Solution</span>
+        <span class="ticker__item">Farm Nest — Eco-Friendly Rural Living</span>
+        <span class="ticker__item">Kiosk Structures — Fast Business Setups</span>
+        <span class="ticker__item">Detachable Cabins — Flexible &amp; Portable</span>
+        <span class="ticker__item">Mobile Nests — On-The-Go Workspaces</span>
+        <span class="ticker__item">Smart Nests — Innovation Meets Comfort</span>
+        <span class="ticker__item">Smart Cabins — Hyderabad's Best Prefab Solution</span>
+        <span class="ticker__item">Farm Nest — Eco-Friendly Rural Living</span>
+        <span class="ticker__item">Kiosk Structures — Fast Business Setups</span>
+        <span class="ticker__item">Detachable Cabins — Flexible &amp; Portable</span>
+        <span class="ticker__item">Mobile Nests — On-The-Go Workspaces</span>
+        <span class="ticker__item">Smart Nests — Innovation Meets Comfort</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════
+     PRICING
+═══════════════════════════════════════════ -->
+<section class="pricing" aria-labelledby="pricing-title">
+  <div class="container">
+    <div class="pricing__head">
+      <div class="section-tag reveal">Pricing / Packages</div>
+      <h2 class="section-title reveal reveal-d1" id="pricing-title">Transparent Pricing, <span>Lasting Value</span></h2>
+      <p class="section-sub reveal reveal-d2" style="margin:0 auto 32px;">We believe great design should come with clarity and trust. Our pricing is straightforward.</p>
+    </div>
+
+    <div class="pricing__tabs" role="tablist">
+      <button class="pricing__tab active" data-ptab="commercial" role="tab" aria-selected="true">Commercial</button>
+      <button class="pricing__tab" data-ptab="residential" role="tab" aria-selected="false">Residential</button>
+    </div>
+
+    <!-- Commercial Plans -->
+    <div class="pricing__grid" id="pricing-commercial">
+      <div class="price-card reveal">
+        <h3 class="price-card__title">Basic</h3>
+        <div class="price-card__price">₹80K<span style="font-size:.4em;color:var(--gray-400)">+</span></div>
+        <div class="price-card__price-label">Starting price</div>
+        <p class="price-card__desc">Ideal for guard cabins, ticket counters, and small commercial kiosks.</p>
+        <div class="price-card__divider"></div>
+        <ul class="price-card__features">
+          <li class="price-card__feature">Single unit structure</li>
+          <li class="price-card__feature">Standard steel frame</li>
+          <li class="price-card__feature">Basic electrical fittings</li>
+          <li class="price-card__feature">Weather-resistant coating</li>
+        </ul>
+        <a href="#contact" class="btn btn--outline-green" style="width:100%;justify-content:center;">Contact Us</a>
+      </div>
+      <div class="price-card price-card--featured reveal reveal-d1">
+        <span class="price-card__badge">Most Popular</span>
+        <h3 class="price-card__title">Professional</h3>
+        <div class="price-card__price">₹2.5L<span style="font-size:.4em;color:rgba(255,255,255,.4)">+</span></div>
+        <div class="price-card__price-label">Starting price</div>
+        <p class="price-card__desc">Best for office containers, cafés, and mid-size commercial spaces.</p>
+        <div class="price-card__divider"></div>
+        <ul class="price-card__features">
+          <li class="price-card__feature">Multi-room configuration</li>
+          <li class="price-card__feature">Premium steel + insulation</li>
+          <li class="price-card__feature">Full electrical &amp; plumbing</li>
+          <li class="price-card__feature">AC unit provision</li>
+          <li class="price-card__feature">Custom branding options</li>
+        </ul>
+        <a href="#contact" class="btn btn--amber" style="width:100%;justify-content:center;">Contact Us</a>
+      </div>
+      <div class="price-card reveal reveal-d2">
+        <h3 class="price-card__title">Enterprise</h3>
+        <div class="price-card__price">Custom</div>
+        <div class="price-card__price-label">Tailored to requirements</div>
+        <p class="price-card__desc">Large-scale deployments, hotels, full commercial campuses and complexes.</p>
+        <div class="price-card__divider"></div>
+        <ul class="price-card__features">
+          <li class="price-card__feature">Multi-container complexes</li>
+          <li class="price-card__feature">Architect-designed layouts</li>
+          <li class="price-card__feature">Full turnkey delivery</li>
+          <li class="price-card__feature">Post-installation support</li>
+          <li class="price-card__feature">Dedicated project manager</li>
+        </ul>
+        <a href="#contact" class="btn btn--outline-green" style="width:100%;justify-content:center;">Contact Us</a>
+      </div>
+    </div>
+
+    <!-- Residential Plans (hidden by default) -->
+    <div class="pricing__grid" id="pricing-residential" style="display:none;">
+      <div class="price-card reveal">
+        <h3 class="price-card__title">Starter</h3>
+        <div class="price-card__price">₹3.5L<span style="font-size:.4em;color:var(--gray-400)">+</span></div>
+        <div class="price-card__price-label">Starting price</div>
+        <p class="price-card__desc">Studio-style container home, perfect for guesthouses and compact living.</p>
+        <div class="price-card__divider"></div>
+        <ul class="price-card__features">
+          <li class="price-card__feature">1 room + bathroom</li>
+          <li class="price-card__feature">Basic kitchen fitout</li>
+          <li class="price-card__feature">Full electrical wiring</li>
+          <li class="price-card__feature">Loft insulation</li>
+        </ul>
+        <a href="#contact" class="btn btn--outline-green" style="width:100%;justify-content:center;">Contact Us</a>
+      </div>
+      <div class="price-card price-card--featured reveal reveal-d1">
+        <span class="price-card__badge">Best Value</span>
+        <h3 class="price-card__title">Family</h3>
+        <div class="price-card__price">₹8L<span style="font-size:.4em;color:rgba(255,255,255,.4)">+</span></div>
+        <div class="price-card__price-label">Starting price</div>
+        <p class="price-card__desc">2BHK container home with full amenities for permanent or semi-permanent living.</p>
+        <div class="price-card__divider"></div>
+        <ul class="price-card__features">
+          <li class="price-card__feature">2 bedrooms + living room</li>
+          <li class="price-card__feature">Modular kitchen</li>
+          <li class="price-card__feature">2 bathrooms</li>
+          <li class="price-card__feature">AC provisions + solar ready</li>
+          <li class="price-card__feature">Custom interior design</li>
+        </ul>
+        <a href="#contact" class="btn btn--amber" style="width:100%;justify-content:center;">Contact Us</a>
+      </div>
+      <div class="price-card reveal reveal-d2">
+        <h3 class="price-card__title">Farmhouse</h3>
+        <div class="price-card__price">₹18L<span style="font-size:.4em;color:var(--gray-400)">+</span></div>
+        <div class="price-card__price-label">Starting price</div>
+        <p class="price-card__desc">Spacious multi-container farmhouse for agricultural estates and weekend retreats.</p>
+        <div class="price-card__divider"></div>
+        <ul class="price-card__features">
+          <li class="price-card__feature">3+ bedroom layout</li>
+          <li class="price-card__feature">Open plan living &amp; dining</li>
+          <li class="price-card__feature">Full solar system option</li>
+          <li class="price-card__feature">Outdoor deck &amp; garden</li>
+          <li class="price-card__feature">Dedicated project team</li>
+        </ul>
+        <a href="#contact" class="btn btn--outline-green" style="width:100%;justify-content:center;">Contact Us</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     VIDEOS
+═══════════════════════════════════════════ -->
+<section class="videos-section" aria-labelledby="videos-title">
+  <div class="container">
+    <div class="videos-section__head">
+      <div class="section-tag reveal">Nagarjuna Prefabs</div>
+      <h2 class="section-title reveal reveal-d1" id="videos-title">Our <span>Videos</span></h2>
+    </div>
+
+    <div class="videos-grid">
+      <div class="video-card reveal">
+        <div class="img-ph img-ph--green video-card__thumb" style="font-size:40px;color:rgba(255,255,255,.2);">📹</div>
+        <div class="video-card__overlay">
+          <div class="video-card__play" aria-label="Play video 1">
+            <svg width="22" height="22" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+        </div>
+      </div>
+      <div class="video-card reveal reveal-d1">
+        <div class="img-ph img-ph--dark video-card__thumb" style="font-size:40px;color:rgba(255,255,255,.2);">🎬</div>
+        <div class="video-card__overlay">
+          <div class="video-card__play" aria-label="Play video 2">
+            <svg width="22" height="22" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+        </div>
+      </div>
+      <div class="video-card reveal reveal-d2">
+        <div class="img-ph img-ph--amber video-card__thumb" style="font-size:40px;color:rgba(255,255,255,.2);">🏗️</div>
+        <div class="video-card__overlay">
+          <div class="video-card__play" aria-label="Play video 3">
+            <svg width="22" height="22" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="videos-section__cta reveal">
+      <a href="#" class="btn btn--outline-green">View More &raquo;</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     INSTAGRAM STRIP
+═══════════════════════════════════════════ -->
+<div class="instagram" aria-label="Instagram feed">
+  <div class="instagram__strip">
+
+    <div class="insta-tile">
+      <img src="images/logo.png" alt="Instagram post" style="width:100%; height:100%; object-fit:cover;">
+      <div class="insta-tile__overlay">
+        <div class="insta-tile__icon">📸</div>
+        <div class="insta-tile__text">Follow Us</div>
+      </div>
+    </div>
+
+    <div class="insta-tile">
+      <img src="images/logo.png" alt="Instagram post" style="width:100%; height:100%; object-fit:cover;">
+      <div class="insta-tile__overlay">
+        <div class="insta-tile__icon">📸</div>
+        <div class="insta-tile__text">@necprefabs</div>
+      </div>
+    </div>
+
+    <div class="insta-tile">
+      <img src="images/logo.png" alt="Instagram post" style="width:100%; height:100%; object-fit:cover;">
+      <div class="insta-tile__overlay">
+        <div class="insta-tile__icon">📸</div>
+        <div class="insta-tile__text">View Gallery</div>
+      </div>
+    </div>
+    <div class="insta-tile">
+      <img src="images/logo.png" alt="Instagram post" style="width:100%; height:100%; object-fit:cover;">
+      <div class="insta-tile__overlay">
+        <div class="insta-tile__icon">📸</div>
+        <div class="insta-tile__text">View Gallery</div>
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+@media(min-width:600px){.insta-tile:nth-child(3){display:block !important;}}
+</style>
+
+
+<!-- ═══════════════════════════════════════════
+     TESTIMONIALS
+═══════════════════════════════════════════ -->
+<section class="testimonials" aria-labelledby="testimonials-title">
+  <div class="container">
+    <div class="testimonials__head">
+      <div class="section-tag reveal">Testimonials</div>
+      <h2 class="section-title reveal reveal-d1" id="testimonials-title">What Our <span>Clients Say</span></h2>
+    </div>
+
+    <div class="testimonials__slider" role="region" aria-label="Client testimonials">
+      <div class="testimonials__track" id="testiTrack">
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__quote">"</div>
+          <div class="testimonial-card__stars" aria-label="5 stars">★★★★★</div>
+          <p class="testimonial-card__text">Nagarjuna Prefabs delivered our smart cabin on time, and the quality exceeded expectations. The design is modern, durable, and perfectly suited for our workspace needs. Their team handled everything professionally.</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar" aria-hidden="true">RG</div>
+            <div>
+              <div class="testimonial-card__name">Ramesh Gupta</div>
+              <div class="testimonial-card__role">Business Owner, Hyderabad</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__quote">"</div>
+          <div class="testimonial-card__stars" aria-label="5 stars">★★★★★</div>
+          <p class="testimonial-card__text">We chose Nagarjuna Prefabs for our café setup, and it turned out amazing. The prefab structure is sturdy, stylish, and quick to install. Customers love the unique look. Truly value for money!</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar" aria-hidden="true">RK</div>
+            <div>
+              <div class="testimonial-card__name">Rajesh Kumar</div>
+              <div class="testimonial-card__role">Café Owner, Secunderabad</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__quote">"</div>
+          <div class="testimonial-card__stars" aria-label="5 stars">★★★★★</div>
+          <p class="testimonial-card__text">The detachable cabin from Nagarjuna Prefabs is exactly what we needed for our site office. Easy to transport, assemble, and relocate. The finish and functionality are top-notch.</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar" aria-hidden="true">AR</div>
+            <div>
+              <div class="testimonial-card__name">Anjali Reddy</div>
+              <div class="testimonial-card__role">Civil Contractor, Hyderabad</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__quote">"</div>
+          <div class="testimonial-card__stars" aria-label="4 stars">★★★★☆</div>
+          <p class="testimonial-card__text">Our mobile nest was built with great precision and attention to detail. Nagarjuna Prefabs understood our requirements and provided a sustainable, cost-effective solution. The durability really stands out.</p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar" aria-hidden="true">MS</div>
+            <div>
+              <div class="testimonial-card__name">Meera Sharma</div>
+              <div class="testimonial-card__role">Farm Estate Owner, Nalgonda</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="testimonials__nav">
+      <button class="testimonials__btn" id="testiPrev" aria-label="Previous testimonial">&#8249;</button>
+      <button class="testimonials__btn" id="testiNext" aria-label="Next testimonial">&#8250;</button>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     CONTACT / CTA
+═══════════════════════════════════════════ -->
+<section style="padding:96px 0;background:var(--primary);" id="contact" aria-labelledby="contact-title">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr;gap:60px;align-items:center;" class="contact-grid">
+      <div>
+        <div class="section-tag" style="background:rgba(232,160,32,.2);color:var(--accent);">Get In Touch</div>
+        <h2 class="section-title reveal reveal-d1" id="contact-title" style="color:var(--white);">Ready to Build<br/><span style="color:var(--accent);">Your Space?</span></h2>
+        <p style="color:rgba(255,255,255,.65);font-size:15px;line-height:1.8;margin-bottom:32px;" class="reveal reveal-d2">
+          Contact our team today for a free consultation and quotation. We serve all of Telangana and Andhra Pradesh.
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:14px;" class="reveal reveal-d3">
+          <a href="tel:+919177000799" class="btn btn--amber btn--lg">📞 Call Now</a>
+          <a href="https://wa.me/919177000799/?text=Hi,%20I'm%20interested%20in%20your%20modular%20container%20solutions." target="_blank" rel="noopener" class="btn btn--outline-white btn--lg">💬 WhatsApp</a>
+        </div>
+      </div>
+      <div style="background:rgba(255,255,255,.06);border-radius:var(--radius-lg);padding:40px 36px;border:1px solid rgba(255,255,255,.1);" class="reveal reveal-d2">
+        <h3 style="font-family:var(--font-heading);font-size:20px;color:var(--white);margin-bottom:28px;">Contact Information</h3>
+        <div style="display:flex;flex-direction:column;gap:20px;">
+          <div style="display:flex;align-items:flex-start;gap:14px;">
+            <div style="width:40px;height:40px;border-radius:8px;background:var(--accent);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;">📍</div>
+            <div>
+              <div style="font-family:var(--font-heading);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.45);margin-bottom:4px;">Address</div>
+              <div style="font-size:14px;color:rgba(255,255,255,.8);line-height:1.6;">Survey No. 152, Doolapally, Qutbullahpur, Kompally, Hyd - 500014</div>
+            </div>
+          </div>
+          <div style="display:flex;align-items:flex-start;gap:14px;">
+            <div style="width:40px;height:40px;border-radius:8px;background:var(--accent);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;">📞</div>
+            <div>
+              <div style="font-family:var(--font-heading);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.45);margin-bottom:4px;">Call Us</div>
+              <a href="tel:+919177000799" style="font-size:15px;color:var(--accent);font-weight:700;">+91 - 9177000799</a>
+            </div>
+          </div>
+          <div style="display:flex;align-items:flex-start;gap:14px;">
+            <div style="width:40px;height:40px;border-radius:8px;background:var(--accent);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0;">✉️</div>
+            <div>
+              <div style="font-family:var(--font-heading);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.45);margin-bottom:4px;">Mail Us</div>
+              <a href="mailto:info@necprefabs.com" style="font-size:14px;color:rgba(255,255,255,.8);">info@necprefabs.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+@media(min-width:1024px){.contact-grid{grid-template-columns:1fr 1fr !important;}}
+</style>
+
+
+<!-- ═══════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════ -->
+<footer class="footer" aria-label="Site footer">
+  <div class="container">
+    <div class="footer__inner">
+
+      <!-- Brand -->
+      <div>
+        <div style="font-family:var(--font-heading);font-size:22px;font-weight:800;color:var(--white);margin-bottom:12px;">
+          NEC <span style="color:var(--accent);">Prefabs</span>
+        </div>
+        <p class="footer__brand-desc">
+          <strong style="color:rgba(255,255,255,.8);">Nagarjuna Prefabs</strong> specialize in crafting state-of-the-art smart cabin containers that cater to a wide range of needs, from portable offices and accommodation solutions to modular houses and security cabins.
+        </p>
+        <div class="footer__social">
+          <a href="#" class="footer__social-btn" aria-label="Facebook">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/necprefabs/" target="_blank" rel="noopener" class="footer__social-btn" aria-label="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://wa.me/919177000799" target="_blank" rel="noopener" class="footer__social-btn" aria-label="WhatsApp">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+          </a>
+          <a href="#" class="footer__social-btn" aria-label="YouTube">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.4a2.78 2.78 0 0 0 1.95-1.95A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="white"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Links -->
+      <div>
+        <div class="footer__col-title">Quick Links</div>
+        <ul class="footer__links">
+          <li><a href="#" class="footer__link">Home</a></li>
+          <li><a href="#about" class="footer__link">About Us</a></li>
+          <li><a href="#products" class="footer__link">Products</a></li>
+          <li><a href="#" class="footer__link">Gallery</a></li>
+          <li><a href="#" class="footer__link">Videos</a></li>
+          <li><a href="#contact" class="footer__link">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Our Products -->
+      <div>
+        <div class="footer__col-title">Our Products</div>
+        <ul class="footer__links">
+          <li><a href="#" class="footer__link">Smart Cabin</a></li>
+          <li><a href="#" class="footer__link">Farm Nest</a></li>
+          <li><a href="#" class="footer__link">Kiosk</a></li>
+          <li><a href="#" class="footer__link">Detachable Cabin</a></li>
+          <li><a href="#" class="footer__link">Mobile Nest</a></li>
+          <li><a href="#" class="footer__link">Smart Nest</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div>
+        <div class="footer__col-title">Contact</div>
+        <div class="footer__contact-item">
+          <div class="footer__contact-icon">📍</div>
+          <div>Survey No. 152, Doolapally, Qutbullahpur, Kompally, Hyd - 500014</div>
+        </div>
+        <div class="footer__contact-item">
+          <div class="footer__contact-icon">📞</div>
+          <div><a href="tel:+919177000799">+91 - 9177000799</a></div>
+        </div>
+        <div class="footer__contact-item">
+          <div class="footer__contact-icon">✉️</div>
+          <div><a href="mailto:info@necprefabs.com">info@necprefabs.com</a></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer__bottom">
+      <p class="footer__copy">Copyright © 2019 all rights reserved | Designed by <a href="#" style="color:var(--accent);">Dgtal Veb Media – Hyderabad</a></p>
+      <nav class="footer__legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ═══════════════════════════════════════════
+     STICKY BOTTOM BAR (mobile)
+═══════════════════════════════════════════ -->
+<div class="bottom-bar" role="complementary" aria-label="Quick contact">
+  <a href="tel:+919177000799" class="bottom-bar__btn bottom-bar__btn--call">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.47 2 2 0 0 1 3.58 1.25h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.8a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    Call Us Now
+  </a>
+  <a href="https://api.whatsapp.com/send?phone=919177000799&text=Hi%2C%20I'm%20interested%20in%20your%20modular%20container%20solutions."
+     target="_blank" rel="noopener"
+     class="bottom-bar__btn bottom-bar__btn--wa">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+    WhatsApp
+  </a>
+</div>
+
+
+<!-- ═══════════════════════════════════════════
+     JAVASCRIPT
+═══════════════════════════════════════════ -->
+<script>
+/* ─── HERO SLIDER ─── */
+(function(){
+  const slides = document.querySelectorAll('.hero__slide');
+  const dots   = document.querySelectorAll('.hero__dot');
+  let current  = 0, timer;
+
+  function go(n){
+    slides[current].classList.remove('active');
+    dots[current].classList.remove('active');
+    dots[current].setAttribute('aria-selected','false');
+    current = (n + slides.length) % slides.length;
+    slides[current].classList.add('active');
+    dots[current].classList.add('active');
+    dots[current].setAttribute('aria-selected','true');
+  }
+
+  function next(){ go(current + 1); }
+  function startAuto(){ timer = setInterval(next, 5500); }
+  function resetAuto(){ clearInterval(timer); startAuto(); }
+
+  document.getElementById('heroNext').addEventListener('click',()=>{ go(current+1); resetAuto(); });
+  document.getElementById('heroPrev').addEventListener('click',()=>{ go(current-1); resetAuto(); });
+  dots.forEach(d => d.addEventListener('click',()=>{ go(+d.dataset.slide); resetAuto(); }));
+  startAuto();
+})();
+
+/* ─── NAVBAR BURGER ─── */
+(function(){
+  const btn  = document.getElementById('burger');
+  const menu = document.getElementById('mobile-menu');
+  btn.addEventListener('click',()=>{
+    const open = btn.classList.toggle('open');
+    menu.classList.toggle('open', open);
+    btn.setAttribute('aria-expanded', open);
+    document.body.style.overflow = open ? 'hidden' : '';
+  });
+  menu.querySelectorAll('.nav__mobile-link, a').forEach(l=>{
+    l.addEventListener('click',()=>{
+      btn.classList.remove('open');
+      menu.classList.remove('open');
+      document.body.style.overflow = '';
+    });
+  });
+})();
+
+/* ─── ABOUT TABS ─── */
+(function(){
+  document.querySelectorAll('.about__tab').forEach(tab=>{
+    tab.addEventListener('click',()=>{
+      document.querySelectorAll('.about__tab').forEach(t=>t.classList.remove('active'));
+      document.querySelectorAll('.about__tab-content').forEach(c=>c.classList.remove('active'));
+      tab.classList.add('active');
+      document.getElementById('tab-'+tab.dataset.tab).classList.add('active');
+    });
+  });
+})();
+
+/* ─── PRICING TABS ─── */
+(function(){
+  document.querySelectorAll('.pricing__tab').forEach(tab=>{
+    tab.addEventListener('click',()=>{
+      document.querySelectorAll('.pricing__tab').forEach(t=>{t.classList.remove('active');t.setAttribute('aria-selected','false');});
+      tab.classList.add('active'); tab.setAttribute('aria-selected','true');
+      document.getElementById('pricing-commercial').style.display = tab.dataset.ptab==='commercial'?'grid':'none';
+      document.getElementById('pricing-residential').style.display = tab.dataset.ptab==='residential'?'grid':'none';
+    });
+  });
+})();
+
+/* ─── TESTIMONIALS SLIDER ─── */
+(function(){
+  const track  = document.getElementById('testiTrack');
+  const cards  = track.querySelectorAll('.testimonial-card');
+  let idx = 0;
+
+  function getVisible(){
+    const w = window.innerWidth;
+    return w >= 900 ? 3 : w >= 580 ? 2 : 1;
+  }
+
+  function update(){
+    const vis = getVisible();
+    const cardW = track.parentElement.offsetWidth;
+    const gap = 24;
+    const w = (cardW - gap*(vis-1)) / vis;
+    cards.forEach(c=>{ c.style.minWidth = w+'px'; });
+    const max = Math.max(0, cards.length - vis);
+    idx = Math.min(idx, max);
+    track.style.transform = `translateX(-${idx*(w+gap)}px)`;
+  }
+
+  document.getElementById('testiNext').addEventListener('click',()=>{
+    const vis = getVisible();
+    if(idx < cards.length - vis) idx++;
+    update();
+  });
+  document.getElementById('testiPrev').addEventListener('click',()=>{
+    if(idx > 0) idx--;
+    update();
+  });
+
+  window.addEventListener('resize', update);
+  update();
+})();
+
+/* ─── SCROLL REVEAL ─── */
+(function(){
+  const els = document.querySelectorAll('.reveal');
+  const obs = new IntersectionObserver(entries=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('visible'); obs.unobserve(e.target); }});
+  },{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+  els.forEach(el=>obs.observe(el));
+})();
+
+/* ─── COUNTERS ─── */
+(function(){
+  const counters = document.querySelectorAll('.counter');
+  const obs = new IntersectionObserver(entries=>{
+    entries.forEach(e=>{
+      if(!e.isIntersecting) return;
+      const el = e.target;
+      const target = +el.dataset.target;
+      const dur = 1800;
+      const start = performance.now();
+      const tick = now => {
+        const p = Math.min((now-start)/dur,1);
+        el.textContent = Math.floor((1-Math.pow(1-p,3))*target);
+        if(p<1) requestAnimationFrame(tick); else el.textContent=target;
+      };
+      requestAnimationFrame(tick);
+      obs.unobserve(el);
+    });
+  },{threshold:.5});
+  counters.forEach(c=>obs.observe(c));
+})();
+
+/* ─── SMOOTH SCROLL ─── */
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    const t = document.querySelector(a.getAttribute('href'));
+    if(!t) return;
+    e.preventDefault();
+    window.scrollTo({top:t.getBoundingClientRect().top+scrollY-80,behavior:'smooth'});
+  });
+});
+</script>
+
+<script src="js/script.js"></script>
+</body>
+</html>
